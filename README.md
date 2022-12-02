@@ -1,8 +1,11 @@
 # Studio Ghibli API
 
- **December 1 2022 - Heroku is charging for apps now, so I'm archiving this. Feel free to fork and host another version**
+The [Studio Ghibli API](https://ghibli.wrstbnd.dev) catalogs the people, places, and things found in the worlds of Ghibli. It was created to help users discover resources, consume them via HTTP requests, and interact with them in whatever way makes sense. Navigation can be found on the left sidebar, and the right sidebar shows examples of returned objects for successful calls.
 
-The [Studio Ghibli API](https://wrstbndghibli.ngrok.io) catalogs the people, places, and things found in the worlds of Ghibli. It was created to help users discover resources, consume them via HTTP requests, and interact with them in whatever way makes sense. Navigation can be found on the left sidebar, and the right sidebar shows examples of returned objects for successful calls.
+## Updating
+
+1. Merge to master branch
+1. AWS CodePipline will automatically push to Elastic Beanstalk environment and deploy to https://ghibli.wrstbnd.dev
 
 ## Endpoints
 
@@ -15,7 +18,7 @@ The [Studio Ghibli API](https://wrstbndghibli.ngrok.io) catalogs the people, pla
 ## Getting Started
 Requests can be made with curl or other helper libraries by following regular REST calls. Examples are provided for Ruby and Python with a use case in Haskell. For example, here is how to GET the resource for the film My Neighbor Tororo:
 
-`curl https://wrstbndghibli.ngrok.io/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`
+`curl https://ghibli.wrstbnd.dev/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`
 
 Calling this resource will respond with the following object:
 

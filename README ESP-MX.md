@@ -1,6 +1,6 @@
 # Studio Ghibli API
 
-La [Studio Ghibli API](https://wrstbndghibli.ngrok.io) cataloga las personas, lugares y cosas que se encuentran en los mundos de Ghibli. Fue creado para ayudar a los usuarios a descubrir recursos, consumirlos a través de solicitudes HTTP e interactuar con ellos de cualquier manera que tenga sentido. La navegación se puede encontrar en la barra lateral izquierda y la barra lateral derecha muestra ejemplos de objetos devueltos para llamadas exitosas.
+La [Studio Ghibli API](https://ghibli.wrstbnd.dev) cataloga las personas, lugares y cosas que se encuentran en los mundos de Ghibli. Fue creado para ayudar a los usuarios a descubrir recursos, consumirlos a través de solicitudes HTTP e interactuar con ellos de cualquier manera que tenga sentido. La navegación se puede encontrar en la barra lateral izquierda y la barra lateral derecha muestra ejemplos de objetos devueltos para llamadas exitosas.
 
 ## Endpoints
 
@@ -13,7 +13,7 @@ La [Studio Ghibli API](https://wrstbndghibli.ngrok.io) cataloga las personas, lu
 ## Comienzo
 Las solicitudes se pueden realizar con curl u otras bibliotecas auxiliares siguiendo las llamadas REST regulares. Se proporcionan ejemplos para Ruby y Python con un caso de uso en Haskell. Por ejemplo, aquí se muestra cómo OBTENER el recurso para la película My Neighbor Tororo:
 
-`curl https://wrstbndghibli.ngrok.io/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`
+`curl https://ghibli.wrstbnd.dev/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`
 
 Al llamar a este recurso responderá con el siguiente objeto:
 
